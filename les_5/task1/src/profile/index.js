@@ -1,4 +1,3 @@
-"use strict";
 // file path: src/profile/index.js
 
 export const printProfile = (profileData) => {
