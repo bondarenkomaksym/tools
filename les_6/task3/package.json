@@ -28,6 +28,7 @@
     "webpack-cli": "^3.3.12"
   },
   "dependencies": {
+    "core-js": "^3.6.5",
     "sass": "^1.26.10"
   },
   "description": ""
