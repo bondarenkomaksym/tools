@@ -25,11 +25,11 @@ const createListItem = ({ text, done, id }) => {
   if (done) {
     listItemElem.classList.add("list-item_done");
   }
-  //добавляем крестик в задание
+
   const textElem = document.createElement("span");
   textElem.classList.add("list-item__text");
   textElem.textContent = text;
-  //кнопка удаления в виде крестика
+
   const deleteBtnElem = document.createElement("button");
   deleteBtnElem.classList.add("list-item__delete-btn");
   deleteBtnElem.setAttribute("data-id", id);

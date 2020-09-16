@@ -27,6 +27,8 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
   },
-  "dependencies": {},
+  "dependencies": {
+    "sass": "^1.26.10"
+  },
   "description": ""
 }
